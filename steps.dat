@@ -1,0 +1,50 @@
+PROJECT_NAME: default project name
+VERSION: 0.0
+ORGANIZATION: default organization
+LABELS: test framework bash # commented
+# LABELS: test framework bash commented
+
+
+PROJECT DESCRIPTION
+this is a
+multi line description
+with some
+# this is the line commented
+line commented
+
+a blank line
+and a comment on the right # this is the comment on the right
+END PROJECT DESCRIPTION
+
+#############
+### STEPS ###
+#############
+
+#######################################################################
+# step name:parameter1 parameter2 parameter3 [...]:return:description #
+#######################################################################
+STEPS
+first step name:firstParameter secondParameter thirdParameter:firstLineReturn secondLineReturn:Short description on first step
+second step name:firstParameter secondParameter thirdParameter:firstLineReturn:Short description on second step
+third step name:firstParameter:firstLineReturn secondLineReturn thirdLineReturn:Short description on third step
+fourth step name:firstParameter secondParameter thirdParameter:firstLineReturn secondLineReturn:Short description on fourth step
+fifth step name:firstParameter secondParameter thirdParameter:firstLineReturn secondLineReturn:Short description on fifth step
+# commented sixth step name:firstParameter secondParameter thirdParameter:firstLineReturn secondLineReturn:Short description on commented sixth step
+
+END STEPS
+##############
+### CONFIG ###
+##############
+
+
+
+###############################################
+# parameterName:parameterValue:transformation #
+###############################################
+k8sHost:
+k8sPort:
+k8sAccessToken:
+mteHost:
+mtePort:
+mteUserId:
+mteUserPasswd:
