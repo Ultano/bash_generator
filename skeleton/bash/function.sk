@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+#
+# %s
+# Created by %s on %s
+# Included in the project %s %s
+#
+# Description:
+# %s
+#
+# Expected parameters:%s
+#
+# Result Fields:%s
+#
+%s(){
+  echo -e 'step: %s \n \t function: %s'
+}
